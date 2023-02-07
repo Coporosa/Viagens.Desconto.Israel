@@ -1,0 +1,35 @@
+:root {
+    --primary-background-color-darkmode: #000000;
+}
+
+@font-face {
+    font-family: "Sigilos Regular";
+    font-style: bold;
+    src: local('Sigilos Regular'), url('Sigilos-Regular_1.ttf') format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sigilos Regular", Arial;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--primary-background-color-darkmode);
+    overflow-x: hidden;
+}
+
+div.content div.distracao {
+    text-align: center;
+    color: #ffffff;
+}
+
+div.content div.distracao h3, div.content div.distracao h2 {
+    font-family: Arial;
+}
+
+div.content div.distracao h2 {
+    margin-top: 20%;
+}
